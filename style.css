@@ -1,4 +1,8 @@
-.benefits {
-    text-align: center;
+.bgimage {
+    background-image: url(placeholder_img.jpeg);
+    background-size: 100%;
 }
 
+.bgimage-inside {
+    padding-top: 37.36%;
+}
