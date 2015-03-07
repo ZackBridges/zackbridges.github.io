@@ -1,8 +1,64 @@
-.bgimage {
-    background-image: url(placeholder_img.jpeg);
-    background-size: 100%;
+body {
+    padding-top: 50px;
+    background: rgb(61, 61, 61);
 }
 
-.bgimage-inside {
-    padding-top: 37.36%;
+#bgvideo div {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: -5px;
 }
+
+#hello {
+    position: absolute;
+    z-index: 1;
+    font-size: 6em;
+    color: chocolate;
+    text-align: center;
+    font-weight: 300;
+}
+
+.hello p {
+    font-size: 100px;
+    font-weight: 300;
+    text-align: center;
+    color: orangered;
+    text-shadow: 1px 1px 1px grey;
+}
+
+#hero {
+    text-align: center;
+    background-color: white;
+    font-weight: 300;
+}
+
+#hero h1 {
+    margin: 25px;
+    font-size: 300%;
+    font-weight: 300;
+}
+
+#hero p {
+    font-size: 200%;
+    margin: 25px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#tech-skills {
+    background-color: beige;
+    font-weight: 300;
+}
+
+#tech-skills .col-md-4 {
+    margin: 50px;
+    font-size: 200%;
+}
+
+#tech-skills .progress {
+    text-align: center;
+}
+
+
