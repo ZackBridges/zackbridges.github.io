@@ -1,10 +1,7 @@
 var hello = function() {
-    var videoHeight = $("#bgvideo").height();
-    var videoWidgth = $("#bgvideo").width();
-    
    $("#hello").offset({
-            top: .447 * videoHeight,
-            left: .6667 * videoWidgth
+            top: .447 * $("#bgvideo").height(),
+            left: .6667 * $("#bgvideo").width()
     });
 };
 
