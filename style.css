@@ -30,6 +30,15 @@ body {
     margin-bottom: -5px;
 }
 
+#contact {
+    background: beige;
+}
+
+#contact > div {
+    margin: 4vh 0;
+    
+}
+
 .divider {
     height: 1px;
     width: 100%;
@@ -39,6 +48,12 @@ body {
     margin-left: -15px;
     overflow: hidden;
     background: black;
+}
+
+form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #hello {
@@ -77,6 +92,10 @@ body {
     margin-right: auto;
     margin: 8vh;
     text-align: center;
+}
+
+#resume a {
+    margin-bottom: 8vh;
 }
 
 #tech-skills {
