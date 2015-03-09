@@ -112,4 +112,28 @@ form {
     text-align: center;
 }
 
+#zack-info h2, p {
+    text-align: center;
+}
 
+.soc-med-logo {
+    margin: 32px 26px;
+}
+
+.footer, .footer ~ p {
+    background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 100%);
+    background-image:      -o-linear-gradient(top, #3c3c3c 0%, #222 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#222));
+    background-image:         linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    color: #9d9d9d;
+    margin: 25px;
+    text-align: center;
+}
+
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
