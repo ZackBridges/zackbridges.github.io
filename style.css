@@ -101,6 +101,7 @@ form {
 #tech-skills {
     background-color: beige;
     font-weight: 300;
+    display: none;
 }
 
 #tech-skills .col-md-4 {
