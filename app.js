@@ -15,4 +15,3 @@ $(document).ready(hello);
     var base_url = '//forms.brace.io/';
     var action = base_url + atob(base64_email);
     $('#contact-form').attr('action', action);
-}); */

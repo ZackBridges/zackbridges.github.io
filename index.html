@@ -8,9 +8,12 @@
     <link href="bootstrap-3.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap-3.3.2-dist/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
 </head>
 <body>
-    <nav class="navbar navbar-fixed-top navbar-inverse">
+    <nav class="navbar navbar-fixed-top navbar-inverse ">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">Zack Bridges</a>
@@ -37,7 +40,7 @@
                 <video muted loop autoplay src="ZackWebsite2015_Export_Full.mp4" width="100%" height="auto"></video>
             </div>
             <div class="col-sm-12 hidden-lg hidden-md">
-                <img class="img img-responsive" src="/Images/Zack1_Slim.jpg">
+                <img class="img img-responsive" src="/Images/Zack1_Medium.jpg">
             </div>
         </div>
     </div>
@@ -49,22 +52,36 @@
             </div>
         </div>
         <div class="divider"></div>
-        <div class="row" id="tech-skills">
+        <div class="row" id="tech-skills" data-spy="scroll">
             <div class="col-md-4">
                 <p>He knows a thing or two about frontend development.</p>
             </div>
-            <div class="col-md-8">
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript/jQuery</li>
-                    <li>Angular.js</li>
-                </ul>
-                <ul>
-                    <li>Beginner</li>
-                    <li>Proficient</li>
-                    <li>Expert</li>
-                </ul>
+            <div class="col-md-6">
+                <section id="skillsHolder">
+	<div id="skillCenter">
+		<h2>Skills</h2>
+			<ul>
+			<li class="skills htmlCSS">
+				<p>HTML5/CSS3</p>
+			</li>
+			<li class="skills jsjqaj">
+				<p>JavaScript/jQuery</p>
+			</li>
+            <li class="skills bootstrap">
+                <p>Bootstrap</p>
+            </li>
+			<li class="skills rwd">
+				<p>Responsive Web Design</p>
+			</li>
+			<li class="skills phpMSQL">
+				<p>PHP/MySQL</p>
+			</li>
+            <li class="skills angular">
+                <p>Angular.js</p>
+            </li>
+		</ul>
+	</div>
+</section>
             </div>
         </div>
         <div class="divider"></div>
@@ -108,7 +125,6 @@
             <div class="col-md-6" id="zack-info">
                 <h2>704.473.7041</h2>
                 <p><a href="https://linkedin.com/in/zackbridges/" target="_blank"><img class="soc-med-logo" src="Images/In-2C-54px-R.png" title="LinkedIn"></a><a href="https://twitter.com/z_bridges" target="_blank"><img class="twitter-logo" src="Images/Twitter_logo_blue.png" title="Twitter"></a><a href="https://github.com/ZackBridges" target="_blank"><img class="soc-med-logo" src="Images/GitHub-Mark-64px.png" title="GitHub"></a></p>
-                <p>2810 Chestnut Street<br>Wilmington, NC 28405</p>
             </div>
         </div>
     </div>
@@ -119,8 +135,8 @@
             </div>
         </div>
     </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="bootstrap-3.3.2-dist/js/bootstrap.min.js"></script>
+
 <script src="app.js"></script>
+
 </body>
 </html>
