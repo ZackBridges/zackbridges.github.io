@@ -17,6 +17,7 @@ $(document).ready(function() {
     $('#contact-form').attr('action', action);
 });
 
+//Animation for #tech-skills bars
 $(".htmlCSS").animate({width:"95%"}, 2100);
 $(".jsjqaj").animate({width:"70%"}, 2100);
 $(".bootstrap").animate({width:"65%"}, 2100);
@@ -24,6 +25,8 @@ $(".rwd").animate({width:"50%"}, 2100);
 $(".phpMSQL").animate({width:"20%"}, 2100);
 $(".angular").animate({width:"14%"}, 2100);
 
+//Collapses navbar in mobile after links are clicked
+//Since links are anchor links and don't trigger new page load
 $(document).ready(function () {
   $(".navbar-nav li a").click(function(event) {
     $(".navbar-collapse").collapse('hide');
