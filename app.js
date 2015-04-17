@@ -1,9 +1,19 @@
-//Responsive behavior of video background HTML overlay
+//Responsive behavior of video and image background HTML overlay
 var hello = function() {
-   $("#hello").offset({
+    //Checks to see if the video is displayed
+    if ($("#video").css("display") == "none") {
+        //If video is not displayed, set the top and left of the HTML on the image.
+        $(".hello-small").offset({
+            top: .447 * $("#bgimage").height(),
+            left: .6667 * $("#bgimage").width()
+        });
+    } else {
+        //Otherwise, set the top and left of the HTML on the video
+        $("#hello").offset({
             top: .447 * $("#bgvideo").height(),
             left: .6667 * $("#bgvideo").width()
     });
+    }
 };
 
 $(window).resize(hello);
