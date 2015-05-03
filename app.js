@@ -5,13 +5,13 @@ var hello = function() {
         //If video is not displayed, set the top and left of the HTML on the image.
         $(".hello-small").offset({
             top: .447 * $("#bgimage").height(),
-            left: .6667 * $("#bgimage").width()
+            left: .65 * $("#bgimage").width()
         });
     } else {
         //Otherwise, set the top and left of the HTML on the video
         $("#hello").offset({
             top: .447 * $("#bgvideo").height(),
-            left: .6667 * $("#bgvideo").width()
+            left: .6 * $("#bgvideo").width()
     });
     }
 };
