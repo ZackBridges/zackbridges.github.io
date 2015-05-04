@@ -16,8 +16,23 @@ var hello = function() {
     }
 };
 
+//Check to see if the Tech Skills container is visible, then call animation function
+var scrollCheck = function() {
+    var scrollPosition = ($(window).height() * 1.1) + $(window).scrollTop();
+    
+    if (scrollPosition > $(".angular").offset().top && $(window).scrollTop() < $("#tech-skills").next().offset().top) {
+        $(".htmlCSS").animate({width:"95%"}, 2100);
+        $(".jsjqaj").animate({width:"70%"}, 2100);
+        $(".bootstrap").animate({width:"65%"}, 2100);
+        $(".rwd").animate({width:"50%"}, 2100);
+        $(".phpMSQL").animate({width:"20%"}, 2100);
+        $(".angular").animate({width:"14%"}, 2100);
+    }
+};
+
 $(window).resize(hello);
 $(document).ready(hello);
+$(window).scroll(scrollCheck);
 
 //Conceals email address in HTML for contact form
 $(document).ready(function() {
@@ -26,14 +41,6 @@ $(document).ready(function() {
     var action = base_url + atob(base64_email);
     $('#contact-form').attr('action', action);
 });
-
-//Animation for #tech-skills bars
-$(".htmlCSS").animate({width:"95%"}, 2100);
-$(".jsjqaj").animate({width:"70%"}, 2100);
-$(".bootstrap").animate({width:"65%"}, 2100);
-$(".rwd").animate({width:"50%"}, 2100);
-$(".phpMSQL").animate({width:"20%"}, 2100);
-$(".angular").animate({width:"14%"}, 2100);
 
 //Collapses navbar in mobile after links are clicked
 //Since links are anchor links and don't trigger new page load
